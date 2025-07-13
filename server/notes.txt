@@ -1,0 +1,36 @@
+npm i typescript @types/node -D
+npx tsc --init
+
+pegar ts config com base na versão do node
+https://github.com/tsconfig/bases
+
+npm i fastify @fastify/cors fastify-type-provider-zod zod
+
+
+npm run lint        # Verificar problemas de linting
+npm run lint:fix    # Corrigir problemas automaticamente
+npm run format      # Formatar código
+npm run format:check # Verificar formatação
+
+docker compose up -d
+
+npm i postgres
+npm i drizzle-orm
+npm i drizzle-kit -D
+npm i drizzle-seed -D
+
+# Aplicar as migrações no banco de dados
+npx drizzle-kit migrate
+
+# Visualizar o studio do Drizzle
+npx drizzle-kit studio
+
+# Gerar novas migrações (se necessário)
+npx drizzle-kit generate
+
+npm i @fastify/multipart
+npm i @google/genai = sdk do gemini
+
+Esse comando instala a SDK do Gemini da Google, que permite que você utilize
+a inteligência artificial generativa (Gemini, sucessor do Bard) em suas aplicações
+JavaScript ou TypeScript.

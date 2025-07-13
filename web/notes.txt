@@ -1,0 +1,8 @@
+npm install tailwindcss @tailwindcss/vite
+npm install -D @types/node
+npx shadcn@latest init
+npx shadcn@latest add button
+npm i react-router-dom
+npm i @tanstack/react-query
+npm i @hookform/resolvers = integração do react hook form com zod ou outras bibliotecas
+npm i @types/dom-speech-recognition -D = tipagem do dom 
